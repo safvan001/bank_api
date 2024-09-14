@@ -29,3 +29,9 @@ query {
   }
 }
 ```
+## Technologies Used
+- **Framework**: Django
+- **GraphQL Library**: Graphene-Django
+- **Database**: PostgreSQL
+- **Deployment**: AWS (URL: ```http://54.234.60.172:8000/gql/```)
+
