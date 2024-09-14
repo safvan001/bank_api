@@ -38,7 +38,8 @@ query {
 ## Setup Instructions
 **Clone the Repository**:
 
-```git clone 
+```
+git clone https://github.com/safvan001/bank_api.git
 cd bank_api
 ```
 **Install Dependencies**:
