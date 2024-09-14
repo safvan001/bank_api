@@ -35,3 +35,24 @@ query {
 - **Database**: PostgreSQL
 - **Deployment**: AWS (URL: ```http://54.234.60.172:8000/gql/```)
 
+## Setup Instructions
+**Clone the Repository**:
+
+```git clone 
+cd bank_api
+```
+**Install Dependencies**:
+```
+pip install -r requirements.txt
+```
+**Run Migrations**:
+```
+python manage.py migrate
+```
+**Start the Server**:
+```
+python manage.py runserver
+```
+**Deployment**:
+The project is deployed on AWS. The endpoint is available at: ```http://54.234.60.172:8000/gql/ ```.
+
